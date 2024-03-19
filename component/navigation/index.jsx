@@ -3,12 +3,16 @@
 import { BtnList } from '@/lib/data'
 import React from 'react'
 import NavButton from './NavButton';
+import useScreenSize from '../hooks/useScreenSize';
 
 function Navigation() {
     // const angleIncrement = 360 / BtnList.length;
+    const screeenSize = useScreenSize();
+
+    console.log("Screen", screeenSize);
 
     const radianIncrement = 2 * Math.PI / BtnList.length;
-    const radius =  window.innerWidth * 0.2 - 16;  
+    const radius =  screeenSize * 0.4 - 16;  
     // const radius =  600;  
 
   return (

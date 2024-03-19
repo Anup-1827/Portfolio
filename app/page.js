@@ -13,7 +13,7 @@ export default function Home() {
         sizes="100vw"
         src={bg}
         alt="homebackground"
-        className="-z-50 w-full h-full object-cover object-center"
+        className="-z-50 w-full h-full object-cover object-center grayscale-[30%]"
       />
 
       <div className="w-full h-screen">

@@ -2,6 +2,7 @@ import Image from "next/image";
 import bg from "../public/background/home-background.png"
 import RenderModel from "@/component/RenderModel";
 import Wizard from "@/component/models/Wizard";
+import Navigation from "@/component/navigation";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
@@ -14,7 +15,8 @@ export default function Home() {
         className="-z-50 w-full h-full object-cover object-center"
       />
 
-      <div className="h-screen">
+      <div className="w-full h-screen">
+          <Navigation/>
           <RenderModel>
             <Wizard/>
           </RenderModel>

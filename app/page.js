@@ -3,6 +3,7 @@ import bg from "../public/background/home-background.png"
 import RenderModel from "@/component/RenderModel";
 import Wizard from "@/component/models/Wizard";
 import Navigation from "@/component/navigation";
+import FireFliesBackground from "@/component/FireFliesBackground";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
@@ -20,6 +21,7 @@ export default function Home() {
           <RenderModel>
             <Wizard/>
           </RenderModel>
+          <FireFliesBackground/>
       </div>
     </main>
   );

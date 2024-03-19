@@ -9,6 +9,7 @@ function Navigation() {
 
     const radianIncrement = 2 * Math.PI / BtnList.length;
     const radius =  window.innerWidth * 0.2 - 16;  
+    // const radius =  600;  
 
   return (
     <div className='w-full fixed h-screen flex items-center justify-center'>

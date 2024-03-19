@@ -9,7 +9,7 @@ import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber';
 
 export default function Wizard(props) {
-  const { nodes, materials } = useGLTF('models//wizard-transformed.glb')
+  const { nodes, materials } = useGLTF('models/wizard-transformed.glb')
 
   const modelRef = useRef();
   const modelPosition = [0, -1.5, 0]

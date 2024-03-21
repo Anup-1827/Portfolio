@@ -4,16 +4,29 @@ Command: npx gltfjsx@6.2.16 hat.glb --transform
 Files: hat.glb [227.05KB] > D:\Projects\portfolio\public\models\hat-transformed.glb [226KB] (0%)
 */
 
+"use client"
+
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
+import { useFrame } from '@react-three/fiber'
 
-export function Model(props) {
-  const { nodes, materials } = useGLTF('/hat-transformed.glb')
+export function Hat(props) {
+  const { nodes, materials } = useGLTF('/models//hat-transformed.glb')
+  const modelRef = useRef()
+  useFrame(()=>{
+    modelRef.current.rotation.y += 0.007
+  })
   return (
-    <group {...props} dispose={null}>
+    <group 
+     ref={modelRef}
+    {...props} dispose={null}
+    scale={[1.5, 1.5, 1.5]}
+    rotation={[0.4, -1, 0]}
+    position={[0, 0, 0]}
+    >
       <mesh geometry={nodes.Object_2.geometry} material={materials.initialShadingGroup} position={[0, -3.867, 0]} rotation={[-Math.PI / 2, 0, 0]} />
     </group>
   )
 }
 
-useGLTF.preload('/hat-transformed.glb')
+useGLTF.preload('/models/hat-transformed.glb')

@@ -44,6 +44,7 @@ function NavButton({
   icon,
   newTab,
   labelDirection = "right",
+  animated = true
 }) {
   return (
     <div
@@ -61,7 +62,7 @@ function NavButton({
         aria-label={label}
         name={label}
       >
-        <span className="relative  w-14 h-14 p-4 animate-spin-slow-reverse group-hover:pause hover:text-accent">
+        <span className={`relative  w-14 h-14 p-4 ${animated?"animate-spin-slow-reverse":""} group-hover:pause hover:text-accent`}>
           {getIcon(icon)}
 
           <span className="peer bg-transparent absolute top-0 left-0 w-full h-full" />

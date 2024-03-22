@@ -3,7 +3,7 @@ import NavButton from './navigation/NavButton'
 
 function HomeButton() {
   return (
-    <div className='top-4 left-4 fixed'>
+    <div className='top-4 left-4 fixed z-50'>
         <NavButton x={0} y={0} label={"Home"} link={"/"} icon="home" newTab={false} animated={false}/>
     </div>
   )

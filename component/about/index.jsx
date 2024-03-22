@@ -1,5 +1,6 @@
 import React from 'react'
 import ItemLayout from './ItemLayout'
+import Link from 'next/link'
 
 function AboutDetails() {
   return (
@@ -41,8 +42,17 @@ function AboutDetails() {
           </p>
         </ItemLayout>
 
+        <ItemLayout className={"col-span-full"}>
+          <img
+            className="w-full h-auto"
+            src={`https://skillicons.dev/icons?i=babel,bootstrap,css,figma,firebase,git,github,graphql,html,js,jquery,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,sass,tailwind,threejs,vercel,vite,vscode,yarn`}
+            alt="CodeBucks"
+            loading="lazy"
+          />
+        </ItemLayout>
+
         <ItemLayout
-          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
+          className={"col-span-full sm:col-span-6 md:col-span-3 !p-0"}
         >
           <img
             className="w-full h-auto"
@@ -52,7 +62,7 @@ function AboutDetails() {
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+        <ItemLayout className={"col-span-full md:col-span-5 !p-0"}>
           <img
             className="w-full h-auto"
             src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=Anup-1827&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
@@ -60,6 +70,23 @@ function AboutDetails() {
             loading="lazy"
           />
         </ItemLayout>
+
+        
+        <ItemLayout className={"col-span-full md:col-span-4 !p-0"}>
+          <Link
+            href="https://github.com/Anup-1827/portfolio"
+            target="_blank"
+            className="w-full"
+          >
+            <img
+              className="w-full h-auto"
+              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=Anup-1827&repo=portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+              alt="CodeBucks"
+              loading="lazy"
+            />
+          </Link>
+        </ItemLayout>
+
 
     </div>
   )

@@ -31,8 +31,8 @@ export default function Page() {
 
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2  -translate-x-1/2">
-          <h1 className="font-bold text-9xl text-accent">CodeBucks</h1>
-          <p className="font-light text-foreground">
+          <h1 className="font-bold text-9xl text-accent">Anup Alone</h1>
+          <p className="font-bold text-white mt-10 text-3xl">
             Meet the wizard behind this portfolio
           </p>
         </div>

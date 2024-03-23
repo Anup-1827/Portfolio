@@ -138,7 +138,7 @@ export default function Form() {
               message: "Message should be less than 500 characters",
             },
             minLength: {
-              value: 50,
+              value: 10,
               message: "Message should be more than 50 characters",
             },
           })}

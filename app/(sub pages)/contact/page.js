@@ -21,7 +21,7 @@ export default function Page() {
         alt="homebackground"
         className="-z-50 w-full h-full fixed object-cover object-center grayscale-[30%]"
       />
-      <HomeButton />
+      <HomeButton labelDirection="left" />
 
       <article className="relative h-screen w-full flex flex-col items-center justify-center py-8 sm:py-0 space-y-8">
         <div className="flex flex-col items-center justify-center space-y-6 w-full sm:w-3/4">

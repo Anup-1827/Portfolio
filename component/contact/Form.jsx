@@ -79,7 +79,7 @@ export default function Form() {
 
   const onSubmit = (data) => {
     const templateParams = {
-      to_name: "CodeBucks",
+      to_name: "Anup",
       from_name: data.name,
       reply_to: data.email,
       message: data.message,

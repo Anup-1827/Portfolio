@@ -12,6 +12,12 @@ import {
   User,
 } from "lucide-react";
 import { clsx } from "clsx";
+import { motion } from "framer-motion";
+
+const item = {
+  hidden: { scale: 0 },
+  show: { scale: 1 },
+};
 
 const getIcon = (icon) => {
   switch (icon) {
@@ -37,6 +43,8 @@ const getIcon = (icon) => {
   }
 };
 
+const NavLink = motion(Link)
+
 function NavButton({
   x,
   y,
@@ -54,7 +62,8 @@ function NavButton({
         transform: `translate(${x}px, ${y}px)`,
       }}
     >
-      <Link
+      <NavLink
+        variants={item}
         href={link}
         target={newTab ? "_blank" : "_self"}
         className="text-foreground  rounded-full flex items-center justify-center
@@ -74,7 +83,7 @@ function NavButton({
             {label}
           </span>
         </span>
-      </Link>
+      </NavLink>
     </div>
   );
 }

@@ -11,6 +11,7 @@ import {
   Twitter,
   User,
 } from "lucide-react";
+import { clsx } from "clsx";
 
 const getIcon = (icon) => {
   switch (icon) {
@@ -67,7 +68,9 @@ function NavButton({
 
           <span className="peer bg-transparent absolute top-0 left-0 w-full h-full" />
 
-          <span className="absolute hidden peer-hover:block px-2 py-1 left-full mx-2 top-1/2 -translate-y-1/2 bg-background text-foreground text-sm rounded-md shadow-lg whitespace-nowrap">
+          <span className={clsx("absolute hidden peer-hover:block px-2 py-1 mx-2 top-1/2 -translate-y-1/2 bg-background text-foreground text-sm rounded-md shadow-lg whitespace-nowrap", labelDirection === "right" && "right-full",
+          labelDirection === "left" && "left-full",
+          )}>
             {label}
           </span>
         </span>

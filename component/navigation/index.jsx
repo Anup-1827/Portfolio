@@ -10,17 +10,17 @@ function Navigation() {
   // const angleIncrement = 360 / BtnList.length;
   const screeenSize = useScreenSize();
 
-  console.log("Screen", screeenSize);
+//   console.log("Screen", screeenSize);
   const isLarge = screeenSize >= 1024;
   const isMedium = screeenSize >= 768;
 
   const radianIncrement = (2 * Math.PI) / BtnList.length;
   const radius = isLarge
-    ? screeenSize * 0.25 - 16
+    ? screeenSize * 0.22 - 16
     : isMedium
     ? screeenSize * 0.4 - 16
     : screeenSize * 0.3 -16;
-  console.log("isMeduim ", isMedium);
+//   console.log("isMeduim ", isMedium);
 
   return (
     <div className="w-full fixed h-screen flex items-center justify-between px-2 xs:justify-center">
@@ -50,7 +50,7 @@ function Navigation() {
             </div>
             <div className="flex flex-col space-y-5">
               {BtnList.slice(BtnList.length / 2).map((btn, index) => {
-                return <NavButton key={index} x={0} y={0} {...btn} labelDirection="left" />;
+                return <NavButton key={index} x={0} y={0} {...btn} labelDirection="right" />;
               })}
             </div>
             </>

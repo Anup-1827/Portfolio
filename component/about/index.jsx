@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function AboutDetails() {
   return (
-    <div className='absolute w-full max-w-7xl top-full text-white grid  grid-cols-12 gap-5 pb-10'>
+    <div className='absolute w-full max-w-7xl top-[95%] px-5 text-white grid  grid-cols-12 gap-5 pb-10'>
         <ItemLayout
           className={
             " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
@@ -62,7 +62,7 @@ function AboutDetails() {
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-5 !p-0"}>
+        <ItemLayout className={"col-span-full sm:col-span-6 md:col-span-5 !p-0"}>
           <img
             className="w-full h-auto"
             src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=Anup-1827&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}

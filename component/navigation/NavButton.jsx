@@ -48,7 +48,7 @@ function NavButton({
 }) {
   return (
     <div
-      className="absolute cursor-pointer z-50"
+      className="xs:absolute cursor-pointer z-50"
       style={{
         transform: `translate(${x}px, ${y}px)`,
       }}
@@ -62,7 +62,7 @@ function NavButton({
         aria-label={label}
         name={label}
       >
-        <span className={`relative  w-14 h-14 p-4 ${animated?"animate-spin-slow-reverse":""} group-hover:pause hover:text-accent`}>
+        <span className={`relative  w-14 h-14 p-4 ${animated?"xs:animate-spin-slow-reverse":""} group-hover:pause hover:text-accent`}>
           {getIcon(icon)}
 
           <span className="peer bg-transparent absolute top-0 left-0 w-full h-full" />

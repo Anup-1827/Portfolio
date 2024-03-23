@@ -40,7 +40,7 @@ function Navigation() {
             <motion.div 
               variants={container}
               initial="hidden"
-              animate="show"
+              whileInView="show"
               className="w-max flex items-center justify-center relative group text-white animate-spin-slow hover:pause">
               {BtnList.map((btn, index) => {
                 const angle = index * radianIncrement;
@@ -54,7 +54,7 @@ function Navigation() {
             <motion.div 
               variants={container}
               initial="hidden"
-              animate="show"
+              whileInView="show"
               className="flex flex-col space-y-5">
               {BtnList.slice(0, BtnList.length / 2).map((btn, index) => {
                 return <NavButton key={index} x={0} y={0} {...btn} labelDirection="left" />;
@@ -63,7 +63,7 @@ function Navigation() {
             <motion.div 
               variants={container}
               initial="hidden"
-              animate="show"
+              whileInView="show"
               className="flex flex-col space-y-5">
               {BtnList.slice(BtnList.length / 2).map((btn, index) => {
                 return <NavButton key={index} x={0} y={0} {...btn} labelDirection="right" />;

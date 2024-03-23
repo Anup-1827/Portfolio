@@ -109,7 +109,7 @@ export default function Form() {
               message: "Name should be atleast 3 characters long.",
             },
           })}
-          className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"
+          className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg text-xs xs:text-sm sm:text-lg"
         />
         {errors.name && (
           <span className="inline-block self-start text-accent">
@@ -121,7 +121,7 @@ export default function Form() {
           type="email"
           placeholder="email"
           {...register("email", { required: "This field is required!" })}
-          className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"
+          className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg text-xs xs:text-sm sm:text-lg"
         />
         {errors.email && (
           <span className="inline-block self-start text-accent">
@@ -142,7 +142,7 @@ export default function Form() {
               message: "Message should be more than 50 characters",
             },
           })}
-          className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"
+          className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg text-xs xs:text-sm sm:text-lg"
         />
         {errors.message && (
           <span className="inline-block self-start text-accent">
@@ -154,8 +154,7 @@ export default function Form() {
           variants={item}
           value="Cast your message!"
           className="px-10 py-4 rounded-md shadow-lg bg-background border border-accent/30 border-solid
-      hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 cursor-pointer capitalize
-      "
+      hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 cursor-pointer capitalize text-xs xs:text-sm sm:text-lg"
           type="submit"
         />
       </motion.form>

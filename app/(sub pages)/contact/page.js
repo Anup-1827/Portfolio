@@ -23,12 +23,12 @@ export default function Page() {
       />
       <HomeButton labelDirection="left" />
 
-      <article className="relative h-screen w-full flex flex-col items-center justify-center py-8 sm:py-0 space-y-8">
+      <article className="relative h-screen w-full flex flex-col items-center justify-center py-8 px-4 sm:py-0 space-y-8">
         <div className="flex flex-col items-center justify-center space-y-6 w-full sm:w-3/4">
-          <h1 className="text-accent font-semibold text-center text-6xl capitalize">
+          <h1 className="text-accent font-semibold text-center text-4xl  sm:text-5xl lg:text-6xl capitalize">
             summon the wizard
           </h1>
-          <p className="text-center text-lg xs:text-white">
+          <p className="text-center text-xs xs:text-sm sm:text-lg text-white">
             Step into the circle of enchantment and weave your words into the
             fabric of the cosmos. Whether you seek to conjure collaborations,
             unlock mysteries, or simply share tales of adventure, your messages

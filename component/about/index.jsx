@@ -29,7 +29,7 @@ function AboutDetails() {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            5+ <sub className="font-semibold text-base">clients</sub>
           </p>
         </ItemLayout>
 
@@ -37,7 +37,7 @@ function AboutDetails() {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            4+{" "}
+            3{" "}
             <sub className="font-semibold text-base">years of experience</sub>
           </p>
         </ItemLayout>
@@ -45,7 +45,7 @@ function AboutDetails() {
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=babel,bootstrap,css,figma,firebase,git,github,graphql,html,js,jquery,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,sass,tailwind,threejs,vercel,vite,vscode,yarn`}
+            src={`https://skillicons.dev/icons?i=babel,bootstrap,css,figma,firebase,git,github,graphql,html,js,jquery,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,sass,tailwind,threejs,tensorflow,vercel,vite,vscode,yarn`}
             alt="CodeBucks"
             loading="lazy"
           />

@@ -24,7 +24,7 @@ For Demo checkout following link👇: <br />
 #### Mobile Version
 ![Next.js Creative Portfolio Website Contact Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/Home-mobile.png)
 ![Next.js Creative Portfolio Website Contact Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/About-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/projects_mob.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/projects_mobile.png)
 ![Next.js Creative Portfolio Website Contact Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/Contact-mobile.png)
 
 ## Resources Used in This Project

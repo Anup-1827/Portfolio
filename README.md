@@ -13,19 +13,19 @@ For Demo checkout following link👇: <br />
 ![Nextjs Creative Portfolio Website](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/Home-desktop.png)
 
 #### About
-![Nextjs Creative Portfolio Website About Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/About-desktop-full.png)
+![Nextjs Creative Portfolio Website About Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/about.png)
 
 #### Projects
-![Next.js Creative Portfolio Website Projects Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Projects-desktop.png)
+![Next.js Creative Portfolio Website Projects Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/projects.png)
 
 #### Contact
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Contact-desktop.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/Contact-desktop.png)
 
 #### Mobile Version
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Home-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/About-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Projects-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Contact-mobile.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/Home-mobile.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/About-mobile.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/projects_mob.png)
+![Next.js Creative Portfolio Website Contact Page](https://github.com/Anup-1827/Portfolio/blob/main/public/screenshots/Contact-mobile.png)
 
 ## Resources Used in This Project
 
